@@ -1,72 +1,31 @@
-# Sales-Analysis-Superstore-Python-PowerBI
+# 🛒 Sales Data Analysis using Python & Power BI
 
-# 🛒 Superstore Sales Data Analysis using Python & Power BI
-
-This project performs exploratory data analysis (EDA) on a Superstore retail dataset to uncover sales trends, product performance, regional contributions, and customer behavior. The analysis was conducted using Python libraries (Pandas, NumPy, Matplotlib), and the insights are visualized using both Matplotlib and Power BI.
-
----
+This project analyzes Superstore sales data to uncover key business insights using Python libraries and Power BI visualizations.
 
 ## 📌 Objective
-To extract meaningful business insights from sales data and visualize them in a way that can support data-driven decision-making.
+To perform data cleaning, analysis, and visualization on retail sales data to identify trends and support decision-making.
 
----
+## 🧰 Tools Used
+- Python (Pandas, NumPy, Matplotlib)
+- Power BI
+- Jupyter Notebook
+- Dataset: Superstore Sales Data (Kaggle)
 
-## 🧰 Tools & Technologies Used
+## 📊 Key Insights
+- 📍 West region has the highest sales share (~22%).
+- 💰 Technology category yields the most profit.
+- ❌ Office Supplies shows low profitability.
+- 🏆 Top products: Xerox Paper, ClearVue Binders.
+- 🔼 Sales peak in Nov–Dec (festive season boost).
 
-- **Python**: Data cleaning & analysis
-- **Pandas, NumPy**: Data manipulation
-- **Matplotlib**: Data visualization
-- **Power BI**: Interactive dashboarding
-- **Jupyter Notebook**: Analysis execution
-- **Dataset**: [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/benroshan/retaildataset)
+## ✅ Recommendations
+- Focus on high-performing regions/products.
+- Reevaluate low-profit categories.
+- Boost inventory before peak seasons.
+- Analyze underperforming markets (e.g., Africa, Canada).
 
----
-
-## 📊 Key Analyses Performed
-
-- Yearly and monthly **sales trend analysis**
-- **Top-selling products** by quantity and sales
-- **Region-wise sales and profit distribution**
-- **Category & sub-category performance**
-- **Segment-wise sales behavior**
-- **Dashboard creation in Power BI**
-
----
-
-## 🔍 Key Findings
-
-- 📍 **West region** had the highest sales (~22% of total).
-- 💰 **Technology** category showed highest profit margins.
-- ❌ **Office Supplies** category showed negative or low profit — needs reevaluation.
-- 🔼 Sales peaked in **November and December** — possible festive boost.
-- ✅ Top products: *Xerox Parchment Paper*, *ClearVue Binders*.
-
----
-
-## ✅ Business Recommendations
-
-- Focus on **high-profit regions and categories**.
-- Run **seasonal promotions** during peak months.
-- Audit **low-performing regions** like Africa and Canada.
-- Revisit **low-margin product lines** to reduce losses.
-- Keep **popular products** in stock for high demand.
-
----
-
-## 📈 Power BI Dashboard Preview
-
-An interactive dashboard was created in Power BI that includes:
-
+## 📈 Dashboard
+Power BI dashboard includes:
 - Sales by Region
-- Monthly Sales Trend
-- Top Products by Quantity
-- Segment and Category-level filters
-
-![image](https://github.com/user-attachments/assets/df24ba79-30c1-4707-80f5-de2bca6c712b)
-![image](https://github.com/user-attachments/assets/2cda6e3e-4c4e-4a45-9a8f-79c166bc2b10)
-![image](https://github.com/user-attachments/assets/0788af0e-eae9-4e70-b68c-0c1ff5bb0214)
-
-
-
-
----
+- Monthly Sales Trends
+- Category & Segment Filters
